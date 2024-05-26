@@ -1,0 +1,94 @@
+/* app.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* добавлен box-sizing для обеспечения согласованного макета */
+}
+
+:root {
+  --primary-color: #212121; /* обновлен основной цвет */
+  --secondary-color: #333; /* обновлен второстепенный цвет */
+  --button-color: #4CAF50; /* обновлен цвет кнопки */
+  --border-radius: 8px; /* обновлен радиус скругления */
+}
+
+.mainblock {
+  margin-top: 20px; /* увеличена верхняя марджина */
+  margin-right: 20px; /* увеличена правая марджина */
+  float: right;
+}
+
+.sendbut {
+  margin-top: 30px; /* увеличена верхняя марджина */
+  float: right;
+}
+
+.descriptionquestiontext {
+  font-size: 18px; /* увеличен размер шрифта */
+  font-weight: 700; /* увеличен вес шрифта */
+}
+
+.questions {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: auto;
+  flex-wrap: wrap; /* добавлен flex-wrap для обеспечения переноса вопросов на следующую строку */
+}
+
+.ModalInput {
+  width: 100%;
+  height: 80px; /* увеличен высота */
+  padding: 16px 24px; /* увеличена паддинг */
+  border: 2px solid #ccc;
+  border-radius: var(--border-radius);
+  background-color: #f8f8f8;
+  font-size: 18px; /* увеличен размер шрифта */
+  resize: none;
+}
+
+.search-container {
+  margin-top: 20px; /* увеличена верхняя марджина */
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: calc(var(--border-radius) + 2px);
+  padding: 10px 20px; /* увеличена паддинг */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+
+.header {
+  background-color: #212121; /* обновлен цвет фона */
+  height: 80px; /* увеличен высота */
+  display: flex;
+  align-items: center;
+  padding: 0 32px; /* увеличена паддинг */
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.logotip {
+  display: flex;
+  align-items: center;
+}
+
+.logotip img {
+  width: 40px; /* увеличен tamaño */
+  height: 40px; /* увеличен tamaño */
+  border-radius: 50%;
+}
+
+.nav-link {
+  color: #fff; /* обновлен цвет текста */
+  margin-left: 32px; /* увеличена левая марджина */
+  text-decoration: none;
+  font-weight: 700; /* увеличен вес шрифта */
+  font-size: 16px; /* увеличен размер шрифта */
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

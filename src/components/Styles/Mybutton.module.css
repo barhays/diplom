@@ -1,0 +1,28 @@
+:root {
+    --button-color: #00B3FF; /* Более яркий голубой цвет */
+    --border-radius: 6px; /* Скругление углов */
+  }
+  
+  .myBtn {
+    background-color: var(--button-color);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.75rem 1.5rem; /* Немного большие отступы */
+    border-radius: var(--border-radius);
+    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 179, 255, 0.3); /* Добавили тень */
+  }
+  
+  .myBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 179, 255, 0.5); /* Более яркая тень при фокусе */
+  }
+  
+  .myBtn:hover {
+    background-color: #0099e6; /* Более темный оттенок при наведении */
+    opacity: 0.9; /* Небольшое затемнение при наведении */
+    transition: 0.2s ease-in-out;
+  }
